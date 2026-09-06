@@ -42,7 +42,7 @@ class MyLinkedList:
         pred.next = pred.next.next
         self.size -= 1
         
-
+// not that important
 
 # Your MyLinkedList object will be instantiated and called as such:
 # obj = MyLinkedList()
