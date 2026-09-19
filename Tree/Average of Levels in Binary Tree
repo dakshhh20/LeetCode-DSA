@@ -19,3 +19,5 @@ class Solution:
             result.append(level_sum / level_size)
 
         return result
+
+// just like max depth type concept here we added average 
