@@ -16,4 +16,7 @@ class Solution:
             dfs(node.left,depth+1)
         dfs(root,0)
         return result
+
+// node.left for cases when a tree has no right node but a left node so it adds the depth
+
         
