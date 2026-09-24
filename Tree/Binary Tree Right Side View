@@ -19,4 +19,6 @@ class Solution:
 
 // node.left for cases when a tree has no right node but a left node so it adds the depth
 
+// bfs approach for this question
+
         
