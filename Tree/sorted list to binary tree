@@ -23,3 +23,4 @@ class Solution:
         root.right = self.sortedListToBST(slow.next)
 
         return root
+// by slow and fast pointers
