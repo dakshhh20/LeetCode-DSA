@@ -18,3 +18,5 @@ class Solution:
 
         inorder(root)
         return res
+
+// basic inorder travarsal
