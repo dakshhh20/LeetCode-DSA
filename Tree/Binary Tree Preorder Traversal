@@ -20,5 +20,7 @@ class Solution:
         preorder(root)
         return res
 
+// pre order travarsal dfs
+
         
         
