@@ -9,28 +9,67 @@ class Node:
 """
 
 
+# class Solution:
+#     def connect(self, root):
+#         if not root:
+#             return None
+
+#         curr = root
+
+#         while curr:
+#             dummy = Node(0)
+#             tail = dummy
+
+#             while curr:
+#                 if curr.left:
+#                     tail.next = curr.left
+#                     tail = tail.next
+
+#                 if curr.right:
+#                     tail.next = curr.right
+#                     tail = tail.next
+
+#                 curr = curr.next
+
+#             curr = dummy.next
+
+#         return root
+
+#         # if not root:
+#         #     return None
+#         # q = [root]
+#         # while q:
+#         #     size = len(q)
+#         #     for i in range(size):
+#         #         node = q.pop(0)
+#         #         if i < size-1:
+#         #             node.next = q[0]
+#         #         if node.left:
+#         #             q.append(node.left)
+#         #         if node.right:
+#         #             q.append(node.right)
+#         #     return root
+
 class Solution:
     def connect(self, root):
-        if not root:
-            return None
+        k = root
+        while k:
+            dummy = Node()
+            prev = dummy
+            while k:
+                if k.left:
+                    prev.next = k.left
+                    prev = prev.next
+                if k.right:
+                    prev.next = k.right  
+                    prev = prev.next    
 
-        curr = root
+                k = k.next
 
-        while curr:
-            dummy = Node(0)
-            tail = dummy
-
-            while curr:
-                if curr.left:
-                    tail.next = curr.left
-                    tail = tail.next
-
-                if curr.right:
-                    tail.next = curr.right
-                    tail = tail.next
-
-                curr = curr.next
-
-            curr = dummy.next
-
+            k = dummy.next
         return root
+
+
+
+   
+
