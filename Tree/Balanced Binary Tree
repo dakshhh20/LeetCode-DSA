@@ -22,5 +22,5 @@ class Solution:
             return 1 + max(left_height,right_height) // gives max height
 
         height(root)
-        return balanced[0]
+        return balanced[0] // balanced tree
         
