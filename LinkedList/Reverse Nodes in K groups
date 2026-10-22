@@ -32,6 +32,8 @@ class Solution:
                 curr = next_node
 
             prev_group.next = prev
+
+// leetcode hard
             prev_group = group_start
 
         return dummy.next
