@@ -31,3 +31,4 @@ class Solution:
             result.append(largest)
 
         return result
+// use float('-inf') instead of -math.inf
