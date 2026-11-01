@@ -24,3 +24,5 @@ class Solution:
 
         height(root)
         return balanced[0]
+
+// TO CHECK IF LEFT AND RIGHT ARE EQUAL
