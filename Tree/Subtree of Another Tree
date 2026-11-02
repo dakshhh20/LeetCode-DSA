@@ -27,3 +27,4 @@ class Solution:
         return(self.isSubtree(root.left,subRoot) or self.isSubtree(root.right,subRoot))
 
 // base of sametree in such tyoe of questions
+// helper function of sametree
